@@ -1,0 +1,49 @@
+body {
+    background-color: grey;
+    font-size: 20px;
+}
+
+#content {
+    max-width: 60%;
+    border : 1px solid black;
+    margin: 40px auto;
+    padding: 50px;
+}
+
+p {
+    color: darkblue;
+    font-size: 1.3em;
+
+
+}
+
+hr {
+    height: 3px;
+
+    background-color: darkblue;
+    width: 80%;
+    margin-top: 50px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: darkred;
+}
+
+#boon {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    margin: 50px auto;
+}
+
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+.list {
+    list-style-type: none;
+}
