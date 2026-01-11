@@ -1,0 +1,40 @@
+#content {
+    max-width: 35%;
+    border : 1px solid black;
+    margin: 40px auto;
+    padding: 50px;
+
+    
+}
+
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+  
+}
+
+#list {
+    padding: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+img {
+width: 20%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+
+
+hr {
+    height: 3px;
+    margin: 30px auto;
+}
+
+#subtitle p {
+    color: rgb(114, 114, 209)
+}
