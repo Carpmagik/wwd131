@@ -11,7 +11,7 @@ body {
 }
 
 p {
-    color: darkblue;
+    color: rgb(124, 196, 238);;
     font-size: 1.3em;
 
 
@@ -20,14 +20,14 @@ p {
 hr {
     height: 3px;
 
-    background-color: darkblue;
+    background-color: rgb(124, 196, 238);
     width: 80%;
     margin-top: 50px;
 }
 
 h1, h2, p {
     text-align: center;
-    
+
 }
 
 #boon {
