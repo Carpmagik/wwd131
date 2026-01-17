@@ -1,0 +1,259 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+header, footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+   
+}
+#content {
+    font-family: Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+    max-width: 80%;
+    margin: 62px auto;
+     max-width: 1000px;
+}
+p, li {
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+.list li {
+  list-style-type: none;
+}
+h2 {
+  margin-top: 40px;
+}
+h3 {
+  font-size: 1.25em;
+}
+main {
+    flex: 1;
+}
+video {
+  width: 70%;
+  border: 2px solid black;
+}
+#video_caution{
+  color: rgb(150, 15, 15);
+  line-height: 1.5em;
+}
+#sol {
+  text-decoration: underline;
+  color:rgb(24, 112, 6)
+}
+.narrow-video {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+.sample_img {
+  width: 200px;
+}
+.mockup {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+.console {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.tall-mockup {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+.para-link {
+  text-decoration: underline;
+}
+.sample_grids {
+  width: 350px;
+}
+pre {
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #dddcdc;
+  padding: 10px 20px 0 20px;
+  margin-top: 3px;
+}
+.code-block {
+  white-space: pre-wrap;     /* Wrap lines instead of scrolling horizontally */
+  font-family: monospace;
+  word-break: break-word;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+em {
+  font-weight: 900;
+}
+.moz {
+  text-decoration: underline;
+  color: #003566;
+}
+.moz:hover {
+  color:#00509d
+}
+.submit {
+  font-size: 1.5em;
+}
+#introduced-topics-content {
+  padding-bottom: 20px;
+  
+}
+#requirements li{
+  line-height: 2em;
+}
+#list li{
+  list-style-type: circle;
+  font-size: 1em;
+}
+#requirement_title {
+  font-size: 1em;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #000814, #003566, #00509d);
+  color: white;
+  padding: 1.5rem 2rem;
+  border-top: 8px solid #1d366a;
+  border-bottom: 8px solid #1d366a;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  letter-spacing: -4px;
+}
+
+.banner-left {
+  display: flex;
+  align-items: center;
+}
+
+.web {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: -3px;
+  transform: rotate(-90deg);
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.banner-right {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* Accordian */
+.accordion .button {
+  font-size: 1.25rem;
+  background: none;
+  border: none;
+  color: #0077cc;
+  cursor: pointer;
+  text-align: left;
+  padding: 5px;
+}
+
+.accordion .button:hover {
+  outline: 2px solid #005fa3;
+  outline-offset: 2px;
+}
+
+.accordion [hidden] {
+  display: none;
+}
+
+.copy-button {
+  border: none;
+  background: none;
+  padding: .5em 0.8em 0 .8em;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #908f8f;
+}
+
+.copy-button:hover {
+  color: #575757;
+}
+
+
+
+.button .caret {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  margin-right: 0.5em;
+}
+
+/* Rotate caret when expanded */
+.button[aria-expanded="true"] .caret {
+  transform: rotate(90deg);
+}
+ .list {
+  background-color: #dddcdc;
+  font-size: .8em;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+}
+
+/* Tables */
+th, td {
+  padding: 5px 10px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #000814, #003566, #00509d);
+    color: white;
+    border-top: 8px solid #1d366a;
+    border-bottom: 8px solid #1d366a;
+    box-shadow: 0 -5px 8px rgba(0, 0, 0, 0.3);
+}
+footer p {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* ---- per page ---- */
+/* prove week 2 - dark mode */
+#logo {
+  background-color: #000;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+
+/* All pages */
+@media screen and (max-width: 1000px) {
+    #content {
+      max-width: 95%;
+    }
+    .web, .title, .banner-right {
+        font-size: 1.5rem;
+    }
+    .banner {
+         padding: .8rem 1.2rem;
+    }
+}
