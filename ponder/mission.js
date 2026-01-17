@@ -9,7 +9,7 @@ function changeTheme() {
     let current = selectElem.value;
     if (current == 'dark') {
         // code for changes to colors and logo
-        document.body.style.backgroundColor = 'black';
+        document.body.style.backgroundColor = '#333';
         document.body.style.color = 'white';
         logo.setAttribute('src', 'images/byu-black.png');
         border.style.border = '1px solid white';
