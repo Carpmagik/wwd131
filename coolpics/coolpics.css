@@ -1,0 +1,96 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+header,
+main,
+footer {
+
+  width: 100%
+  
+
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+header, footer {
+    background-color: rgb(75, 75, 218);
+    border: 1px solid #ccc;
+}
+main {
+    background-color: lightgrey;
+}
+h1 {
+    text-align: center;
+}
+section {
+  padding: 20px;
+  margin: 1em;
+
+}
+nav a {
+    
+    color: black;
+    display: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
+.text-button {
+
+  background: none;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0;
+}
+footer {
+    text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white
+
+}
+          
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .text-button {
+        display: none;
+    }
+    nav a {
+        display: inline;
+        text-align: center;
+    }   
+    nav {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
