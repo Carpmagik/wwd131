@@ -4,60 +4,77 @@
 body {
     margin: 0;
     padding: 0;
-  font-family: Roboto, sans-serif;
-  text-align: center;
+    font-family: Roboto, sans-serif;
+ 
 }
 header,
 main,
 footer {
-
   width: 100%
-  
-
 }
 
-.container {
+h2 {  
+  text-align: center;
+}
+
+.gallery {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
 }
+
+.gallery h1 {
+  margin-bottom: 1rem;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  justify-items: center;     
+  gap: 1rem;
+}
+
 header, footer {
-    background-color: rgb(75, 75, 218);
+    background-color: rgb(106, 157, 220);
     border: 1px solid #ccc;
 }
+
 main {
-    background-color: lightgrey;
+   background-color: lightgrey;
+
 }
+
 h1 {
     text-align: center;
 }
-section {
+
+ section {
   padding: 20px;
   margin: 1em;
+}
 
-}
 nav a {
-    
-    color: black;
-    display: none;
+  color: black;
+  display: none;
 }
+
 nav a:hover {
-    text-decoration: none;
-    color: #616061;
+  text-decoration: none;
+  color: #616061;
 }
+
 .text-button {
 
   background: none;
   border: none;
-  color: black;
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0;
+  display: block;
+  margin: 0 auto;
 }
+
 footer {
-    text-align: center;
+  text-align: center;
+  padding: 10px;
 }
 
 img {
@@ -65,32 +82,39 @@ img {
   height: 300px;
   object-fit: cover;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border: 5px solid white
 
 }
           
 
 @media screen and (min-width: 700px) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .text-button {
-        display: none;
-    }
-    nav a {
-        display: inline;
-        text-align: center;
-    }   
-    nav {
-        text-align: right;
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (min-width: 1000px) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+  .text-button {
+    display: none;
+    
+   
+  }
+
+   nav a {
+    display: inline;
+    color: white;
+    
+  }
+
+  nav {
+    text-align: center;
+    word-spacing: 30px;
+  }
+
+
 }
+
