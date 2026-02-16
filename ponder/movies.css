@@ -55,7 +55,7 @@ header, footer {
     .main-nav {
         display: grid;
         grid-template-columns: 100px 100px 100px;
-        justify-content: center;
+        justify-content: right;
 
     }
 

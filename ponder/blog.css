@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header, footer {
+
+    padding: 1rem;
+    text-align: center;
+}
+.main-nav {
+    display: flex;
+    justify-content: right;
+    gap: 3rem;
+    list-style: none;
+    padding: 0;
+    border-top: 4px solid #c2b913b9;
+    border-bottom: 4px solid #c2b913b9;
+}
+.main-nav li {
+    padding: 8px;
+}
+.main-nav a {
+    color: #cc1616b9;
+    text-decoration: none;
+}
+#book-list {
+    padding: 0 2rem;
+}
+.book {
+
+    padding: 1rem;
+    max-width: 700px;
+    margin: 20px auto;
+
+}
+
+
+.book h2 {
+    color: #b30059;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.book p {
+    text-align: right;
+}
+.description {
+    text-align: left;
+}
+.book img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
+footer {
+    border-top: 4px solid #c2b913b9;
+}
+
+@media (min-width: 600px) {
+
+    .book {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 2rem;
+    }
+
+    .book-meta {
+        text-align: right;
+        border-right: 4px solid #d8a15d;
+        padding-right: 1rem;
+        
+
+    }
+
+    .book-content {
+        padding-left: 1rem;
+    }
+
+}
