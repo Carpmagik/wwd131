@@ -12,6 +12,12 @@ main {
   min-height: 100vh;
 }
 
+.emoji {
+  display: inline-block;
+  margin-left: 250px; 
+  transform: scale(2.5); 
+}
+
 .card,
 .card2 {
   grid-column: 3/4;
