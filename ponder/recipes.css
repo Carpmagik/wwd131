@@ -1,0 +1,22 @@
+.social {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+
+}
+
+.social-image {
+    flex: 0 1 1200px;
+    max-width: 100%;
+    }
+
+.rating {
+    display: flex;
+    gap: 0.25em;
+    align-items: center;
+}
+
+.rating > * {
+    flex: 0 1 auto;
+}
+
