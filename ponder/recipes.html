@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="recipes.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Book</title>
+<link rel="stylesheet" href="recipes.css">
 </head>
+
 <body>
-    
-<!-- Open Graph (Facebook, LinkedIn, etc.) -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Your Title">
-<meta property="og:description" content="Your Description">
-<meta property="og:url" content="Your URL">
-<meta property="og:image" content="social-preview-image.png">
 
-<!-- X Card -->
-<meta name="twitter:card" content="Social Preview Image">
-<meta name="twitter:title" content="Your Title">
-<meta name="twitter:description" content="Your Description">
-<meta name="twitter:image" content="social-preview-image.png">
+<header>
+<img src="images/recipe-book.png" alt="Recipe book icon">
+<h1>Recipe Book</h1>
+</header>
 
-<!-- One favicon (ICO works everywhere) -->
-<link rel="icon" href="/favicon.ico">
+<div class="search">
+<input type="text" placeholder="Search recipes...">
+<button>
+<img src="images/search.svg" alt="Search Icon">
+</button>
+</div>
 
-<!-- One Apple Touch Icon (iOS home screen) -->
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<div class="recipe-card">
 
+<img src="images/apple-crisp.jpg" alt="Apple Crisp dessert">
 
-<a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>          
+<div class ="recipe-content">
+<button>dessert</button>
+<h2>Apple Crisp</h2>
 
+<span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+<span aria-hidden="true">⭐</span>
+<span aria-hidden="true">⭐</span>
+<span aria-hidden="true">⭐</span>
+<span aria-hidden="true">⭐</span>
+<span aria-hidden="true">☆</span>
+</span>
+
+<p>
+This apple crisp recipe is a simple yet delicious fall dessert
+that's great served warm with vanilla ice cream.
+</p>
+
+</div>
+</div>
+
+<footer>
 
 <div class="social">
   <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
@@ -37,22 +53,28 @@
   <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
   <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
 </div>                  
+            
+<a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
+Recipe icons created by Freepik - Flaticon </a>
 
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Recipe Book">
+<meta property="og:description" content="Browse delicious recipes">
+<meta property="og:url" content="Your URL">
+<meta property="og:image" content="social-preview-image.png">
 
-<span
-  class="rating"
-  role="img"
-  aria-label="Rating: 4 out of 5 stars"
->
-  <span aria-hidden="true" class="icon-star">⭐</span>
-  <span aria-hidden="true" class="icon-star">⭐</span>
-  <span aria-hidden="true" class="icon-star">⭐</span>
-  <span aria-hidden="true" class="icon-star">⭐</span>
-  <span aria-hidden="true" class="icon-star-empty">☆</span>
-</span>
-                
-                
-                
-                
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Recipe Book">
+<meta name="twitter:description" content="Browse delicious recipes">
+<meta name="twitter:image" content="images/pinterest_icon.svg">
+
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+</head>
+
+</footer>
+
 </body>
 </html>
