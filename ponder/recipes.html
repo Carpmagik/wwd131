@@ -4,76 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Recipe Book</title>
+
 <link rel="stylesheet" href="recipes.css">
+<script defer src="recipe.js"></script>
+
 </head>
 
 <body>
 
 <header>
-<img src="images/recipe-book.png" alt="Recipe book icon">
-<h1>Recipe Book</h1>
+    <img src="images/recipe-book.png" alt="Recipe Book Icon">
+    <h1>RecipeBook</h1>
 </header>
 
 <div class="search">
-<input type="text" placeholder="Search recipes...">
-<button>
-<img src="images/search.svg" alt="Search Icon">
-</button>
+    <input id="search" type="text" placeholder="Search recipes...">
+
+    <button id="search-button">
+        <img src="images/search.svg" alt="Search">
+    </button>
 </div>
 
-<div class="recipe-card">
+<div id="recipe-container"></div>
 
-<img src="images/apple-crisp.jpg" alt="Apple Crisp dessert">
-
-<div class ="recipe-content">
-<button>dessert</button>
-<h2>Apple Crisp</h2>
-
-<span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-<span aria-hidden="true">⭐</span>
-<span aria-hidden="true">⭐</span>
-<span aria-hidden="true">⭐</span>
-<span aria-hidden="true">⭐</span>
-<span aria-hidden="true">☆</span>
-</span>
-
-<p>
-This apple crisp recipe is a simple yet delicious fall dessert
-that's great served warm with vanilla ice cream.
-</p>
-
-</div>
-</div>
+<div id="recipe-content"></div>
 
 <footer>
+    <div class="social">
+        <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates -->
+        <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+        <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+        <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+    </div>
 
-<div class="social">
-  <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
-  <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
-  <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
-  <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
-</div>                  
-            
-<a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
-Recipe icons created by Freepik - Flaticon </a>
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Recipe Book">
-<meta property="og:description" content="Browse delicious recipes">
-<meta property="og:url" content="Your URL">
-<meta property="og:image" content="social-preview-image.png">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Recipe Book">
-<meta name="twitter:description" content="Browse delicious recipes">
-<meta name="twitter:image" content="images/pinterest_icon.svg">
-
-<link rel="icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-</head>
-
+    <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
+        Recipe icons created by Freepik - Flaticon
+    </a>
 </footer>
 
 </body>
