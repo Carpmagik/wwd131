@@ -61,10 +61,6 @@ header h1{
     font-size:14px;
 }
 
-.search input:focus{
-    outline:none;
-}
-
 .search button{
     border:none;
     background:white;
@@ -143,6 +139,11 @@ footer{
     .recipe-card img{
         width:300px;
         height:auto;
+        align-items: flex-start;
+    }
+
+    .recipe-card h1 {
+        align-items: center;
     }
 
     .recipe-content{

@@ -298,21 +298,24 @@ function ratingTemplate(rating) {
 }
 
 function recipeTemplate(recipe) {
-  let instructionsHTML = recipe.recipeInstructions.map(instruction => {
-    return `<li>${instruction}</li>`;
-  }).join("");
-
   return `
     <div class="recipe-card">
-      <h2>${recipe.name}</h2>
       <img src="${recipe.image}" alt="${recipe.name}">
-      <p>${recipe.description}</p>
-      ${ratingTemplate(recipe.rating)}
-      <p>${tagTemplate(recipe.tags)}</p>
+
+      <div class="recipe-content">
+        <div class="recipe-tags">
+          ${tagTemplate(recipe.tags)}
+        </div>
+
+        <h2>${recipe.name}</h2>
+
+        ${ratingTemplate(recipe.rating)}
+
+        <p>${recipe.description}</p>
+      </div>
     </div>
   `;
 }
-
 function renderRecipe(recipe) {
   recipeContainer.innerHTML += recipeTemplate(recipe);
 }
