@@ -301,16 +301,12 @@ function recipeTemplate(recipe) {
   return `
     <div class="recipe-card">
       <img src="${recipe.image}" alt="${recipe.name}">
-
       <div class="recipe-content">
         <div class="recipe-tags">
           ${tagTemplate(recipe.tags)}
         </div>
-
         <h2>${recipe.name}</h2>
-
         ${ratingTemplate(recipe.rating)}
-
         <p>${recipe.description}</p>
       </div>
     </div>
