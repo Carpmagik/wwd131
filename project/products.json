@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Splattershot",
+        "price": 200.00,
+        "image": "splatershot.png"
+    },
+    {
+        "id": 2,
+        "name": "Splat Roller",
+        "price": 300.00,
+        "image": "splatroller.png"
+    },
+    {
+        "id": 3,
+        "name": "Splat Charger",
+        "price": 400.00,
+        "image": "splatcharger.png"
+    },
+    {
+        "id": 4,
+        "name": "Splat Brella",
+        "price": 500.00,
+        "image": "splatbrella.png"
+    },
+    {
+        "id": 5,
+        "name": "Splat Dualies",
+        "price": 600.00,
+        "image": "splatdualies.png"
+    },
+    {
+        "id": 6,
+        "name": "Splat Blaster",
+        "price": 700.00,
+        "image": "splatblaster.png"
+    },
+    {
+        "id": 7,
+        "name": "Splat Slosher",
+        "price": 800.00,
+        "image": "splatslosher.png"
+    },
+    {
+        "id": 8,
+        "name": "Splatling",
+        "price": 900.00,
+        "image": "splatling.png"
+    },
+    {
+        "id": 9,
+        "name": "Sloshing Machine",
+        "price": 1000.00,
+        "image": "sloshingmachine.png"
+    }
+
+
+    
+]

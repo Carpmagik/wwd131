@@ -1,0 +1,55 @@
+[ {
+    "id": 10,
+    "name": "Splat Cap",
+    "price": 150.00,
+    "image": "splatcap.png"
+},
+{
+    "id": 11,
+    "name": "Gas Mask",
+    "price": 250.00,
+    "image": "gasmask.png"
+},
+{
+    "id": 12,
+    "name": "Beret and Glasses",
+    "price": 350.00,
+    "image": "beretglass.png"
+},
+{
+    "id": 13,
+    "name": "Emerence Jacket",
+    "price": 450.00,
+    "image": "milky.png"
+},
+{
+    "id": 14,
+    "name": "Thin Jersey",
+    "price": 550.00,
+    "image": "jersy.png"
+},
+{
+    "id": 15,
+    "name": "Red Hoodie",
+    "price": 650.00,
+    "image": "hoodie.png"
+},
+{
+    "id": 16,
+    "name": "Amber Sea Slugs",
+    "price": 750.00,
+    "image": "slugs.png"
+},
+{
+    "id": 17,
+    "name": "Anaki Strappy Sandals",
+    "price": 850.00,
+    "image": "sandals.png"
+},
+{
+    "id": 18,
+    "name": "Banana Basics",
+    "price": 950.00,
+    "image": "basics.png"
+}
+]
