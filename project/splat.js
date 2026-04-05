@@ -45,6 +45,25 @@ const addDataToHTML = () => {
     });
 };
 
+const checkoutBtn = document.querySelector('.checkout');
+
+if (checkoutBtn) {
+    checkoutBtn.addEventListener('click', () => {
+
+        // 1. clear cart array
+        carts = [];
+
+        // 2. clear localStorage
+        localStorage.removeItem('cart');
+
+        // 3. update UI
+        addCartToHTML();
+
+        // 4. show alert
+        alert('Thank you for your purchase! 🛒');
+    });
+}
+
 // click add to cart
 if (listProductHTML) {
     listProductHTML.addEventListener('click', (event) => {
